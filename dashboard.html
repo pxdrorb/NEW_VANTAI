@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vant.Ai - Dashboard</title>
+    <link rel="shortcut icon" href="imagens/new.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="dashboard.html">
+            <img src="imagens/ventaiAtivo 3.png" alt="Vant.Ai" width="120">
+        </a>
+        <nav>
+            <ul>
+                <li><strong>Início</strong></li>
+                <li><a href="lista-leads.html">Gerador de Leads</a></li>
+                <li><a href="configurar-playbook.html">Meus Playbooks</a></li>
+                <li><a href="login.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bem-vindo, Vendedor!</h2>
+            <p>Aqui está o resumo da sua produtividade hoje:</p>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">🧲</div>
+                    <span class="stat-value">15</span>
+                    <span class="stat-label">Leads Identificados</span>
+                    <span class="stat-trend up">▲ 4 esta semana</span>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📋</div>
+                    <span class="stat-value">8</span>
+                    <span class="stat-label">Playbooks Gerados</span>
+                    <span class="stat-trend up">▲ 2 esta semana</span>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📈</div>
+                    <span class="stat-value">12%</span>
+                    <span class="stat-label">Taxa de Conversão</span>
+                    <span class="stat-trend up">▲ 1,5% vs. mês anterior</span>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⏱️</div>
+                    <span class="stat-value">2h 40min</span>
+                    <span class="stat-label">Tempo Médio até Resposta</span>
+                    <span class="stat-trend down">▼ 18min vs. mês anterior</span>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🤝</div>
+                    <span class="stat-value">5</span>
+                    <span class="stat-label">Negociações em Andamento</span>
+                    <span class="stat-trend up">▲ 1 esta semana</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Metas do Mês</h3>
+            <p>Seu progresso em relação aos objetivos definidos para este período:</p>
+            <div class="goals-list">
+                <div class="goal-item">
+                    <div class="goal-header">
+                        <strong>🎯 Novos Leads</strong>
+                        <span>15 / 20</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width:75%"></div>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-header">
+                        <strong>📋 Playbooks Gerados</strong>
+                        <span>8 / 10</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width:80%"></div>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-header">
+                        <strong>📈 Taxa de Conversão</strong>
+                        <span>12% / 15%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-bar-fill" style="width:60%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Atividade Recente</h3>
+            <div class="activity-list">
+                <div class="activity-item">
+                    <div class="activity-icon">📋</div>
+                    <div class="activity-content">
+                        <p>Playbook gerado para <strong>Construtora Nordeste</strong> usando o framework SPIN.</p>
+                        <time>Hoje, 09:40</time>
+                    </div>
+                </div>
+                <div class="activity-item">
+                    <div class="activity-icon">🧲</div>
+                    <div class="activity-content">
+                        <p>Novo lead identificado: <strong>DataFlow Tecnologia</strong> (Recife, PE).</p>
+                        <time>Ontem, 17:12</time>
+                    </div>
+                </div>
+                <div class="activity-item">
+                    <div class="activity-icon">🤝</div>
+                    <div class="activity-content">
+                        <p>Negociação com <strong>Marina Silva</strong> avançou para a etapa de fechamento.</p>
+                        <time>Ontem, 14:05</time>
+                    </div>
+                </div>
+                <div class="activity-item">
+                    <div class="activity-icon">📋</div>
+                    <div class="activity-content">
+                        <p>Playbook gerado para <strong>Clínica Vida Plena</strong> usando o framework BANT.</p>
+                        <time>2 dias atrás</time>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Ações Rápidas</h3>
+            <p>O que você deseja fazer agora?</p>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <h4>🧲 Encontrar novos Leads</h4>
+                    <p>Busque empresas e pessoas no seu setor.</p>
+                    <a href="lista-leads.html" class="btn btn-primary btn-sm">Começar Busca</a>
+                </div>
+                <div class="card">
+                    <h4>📋 Ver Playbooks Recentes</h4>
+                    <p>Acesse roteiros gerados anteriormente.</p>
+                    <a href="configurar-playbook.html" class="btn btn-outline btn-sm">Abrir Histórico</a>
+                </div>
+                <div class="card">
+                    <h4>👤 Atualizar meu Perfil</h4>
+                    <p>Mantenha seus dados e preferências de vendas em dia.</p>
+                    <a href="cadastro.html" class="btn btn-outline btn-sm">Editar Perfil</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Vant.Ai - Sistema de Inteligência Comercial</p>
+        <p class="footer-credits">
+            Desenvolvido por: PEDRO HENRIQUE RODRIGUES DE BRITO, Matrícula: 202610174 &middot;
+            LUCAS DA SILVA CHAVES, Matrícula: 202610160 &middot;
+            SAMUEL AURÉLIO DA SILVA, Matrícula: 202610242
+        </p>
+    </footer>
+
+</body>
+</html>
